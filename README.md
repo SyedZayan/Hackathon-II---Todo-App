@@ -1,8 +1,3 @@
-# TaskFlow - The Evolution of Todo
-
-TaskFlow is an innovative todo application that demonstrates the complete evolution of software development from a simple in-memory Python console app to a sophisticated, AI-powered, cloud-native application deployed on Kubernetes. It showcases modern development practices, progressive feature enhancement, and scalable architecture patterns.
-
----
 
 ## Todo App Feature Progression
 
