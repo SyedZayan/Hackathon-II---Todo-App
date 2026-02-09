@@ -1,0 +1,35 @@
+# Spec-Kit Configuration for Todo Console App
+
+project:
+  name: "Todo Console App"
+  version: "0.1.0"
+  description: "A console-based todo application with in-memory storage"
+  
+directories:
+  source: "src"
+  tests: "tests"
+  specs: "specs"
+  docs: "docs"
+  
+files:
+  main: "src/main.py"
+  entry_point: "main"
+  
+dependencies:
+  python_version: "3.13+"
+  package_manager: "uv"
+  external_libs: []
+  
+architecture:
+  pattern: "layered"
+  layers:
+    - "ui"
+    - "services"
+    - "models"
+    - "storage"
+    
+validation:
+  type_hints_required: true
+  docstrings_required: true
+  max_function_length: 30
+  testing_required: true
